@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    }
+
+.container{
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+text-align: center;
+}
+
+
+.logo {
+    width: 229px;
+    height: auto;
+    padding-top: 42px;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+    font-weight: 600;
+    font-size: 32px; 
+    line-height: 41.6px;
+}
+
+.imagem {
+    display: inline-block;
+    padding-top: 61px;
+    padding-right: 26px;
+    border-radius: 8px;
+    transition: filter .4s;
+}
+.imagem img{
+    border: black;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    
+}
+
+.imagem img:hover{
+    border: white;
+    border-style: solid;
+    color: white;
+
+}
+
+.imagem:hover{
+filter: brightness(1.2);
+}
+
+
+.nome {
+    background-color: transparent; 
+    color: #9C9C9C;
+    cursor: pointer;
+
+}
+
+.nome:hover{
+color: white;
+
+}
+
+.btn {
+
+    width: 206px;
+    height: 50px;
+    padding: 10px;
+    text-decoration: none;
+    background-color:rgba(165, 42, 42, 0);
+    color: white;
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 136px;
+    font-size: 16px;
+    transition: background .6s;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+
+background-color: rgb(255, 255, 255);
+color: black;
+}
+
+#botao:hover {
+    transition: filter .6s;
+    filter: brightness(2);
+
